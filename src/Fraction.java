@@ -10,7 +10,6 @@ public class Fraction {
         this.mau = mau;
         rutgon();
     }
-
     private void rutgon() {
         int gcd = gcd(tu, mau);
         tu /= gcd;
@@ -20,7 +19,6 @@ public class Fraction {
             mau = -mau;
         }
     }
-
     private int gcd(int tu, int mau) {
         if (mau == 0) {
             return tu;

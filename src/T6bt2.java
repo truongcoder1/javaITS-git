@@ -1,7 +1,7 @@
 public class T6bt2 {
     public static void main(String[] args) {
         Fraction phanso1 = new Fraction(2, 3);
-        Fraction phanso2 = new Fraction(3, 4);
+        Fraction phanso2 = new Fraction(1, 4);
 
         Fraction cong = phanso1.add(phanso2);
         Fraction tru = phanso1.subtract(phanso2);
